@@ -5,7 +5,6 @@ from keras.models import Sequential
 from keras.optimizers import Adam
 from keras.callbacks import ModelCheckpoint
 import pickle
-
 import preprocess
 
 tf.python.control_flow_ops = tf
